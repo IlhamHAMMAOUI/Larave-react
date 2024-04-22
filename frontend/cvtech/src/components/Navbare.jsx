@@ -52,6 +52,9 @@ export default function Navbare() {
             <li>
               <Link to="/Navbare/Features">Features</Link>
             </li>
+            <li>
+              <Link to="/Navbare/DemoApp">DemoApp</Link>
+            </li>
           </ul>
         </nav>
 

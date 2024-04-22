@@ -9,6 +9,8 @@ import Navbare from './components/Navbare.jsx';
 import Features from './pages/feature/Features.jsx';
 import Pricing from './pages/pricing/Pricing.jsx';
 import Listes from './pages/list/Listes.jsx';
+import DemoApp from './calendrier/DemoApp.jsx';
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import "bootstrap/dist/css/bootstrap.css";
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -37,9 +39,14 @@ const routes = [
       {
         path: '/Navbare/Features', // chemin relatif à /Navbare
         element: <Features />
+      },
+      {
+        path: '/Navbare/DemoApp', // chemin relatif à /Navbare
+        element: <DemoApp />
       }
     ]
   }
+
 ];
 
 

@@ -34,7 +34,7 @@ const CvUpdateComponent = ({ id='8' }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.put(`http://localhost:8000/api/cvtech/edit/${id}`, formData);
+      const response = await axios.put(`http://localhost:8000/api/cvtech/update/${id}`, formData);
       console.log('CV updated successfully:', response.data.cv);
       // Vous pouvez ajouter ici des logiques pour traiter la réponse ou rediriger l'utilisateur
     } catch (error) {

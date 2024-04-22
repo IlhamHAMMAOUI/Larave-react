@@ -46,6 +46,10 @@ public function update(Request $request, $id)
 
         // Retourner une réponse JSON avec succès
         return response()->json(['message' => 'CV mis à jour avec succès', 'cv' => $cv], 200);
+
+        
+
+
     } catch (\Exception $e) {
         // Retourner une réponse JSON avec erreur
         return response()->json(['message' => 'Une erreur est survenue lors de la mise à jour du CV', 'error' => $e->getMessage()], 500);
